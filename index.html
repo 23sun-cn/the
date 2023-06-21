@@ -16,12 +16,12 @@
 	<img class="avatar" src="https://23sun-cn.github.io/images/avatar.jpg"/>
 	<div class="text part1">
 		<div>
-			<span class="letter"><div class="character">SUN</div> <span></span></span>
-			<span class="letter"><div class="character">宇</div> <span></span></span>
-			<span class="letter"><div class="character">日</div> <span></span></span>
-			<span class="letter"><div class="character">奔</div> <span></span></span>
-			<span class="letter"><div class="character">波</div> <span></span></span>
-			<span class="letter"><div class="character">Rainbow</div> <span></span></span>
+			<span class="letter"><div class="character">孙</div> <span></span></span>
+			<span class="letter"><div class="character"></div> <span></span></span>
+			<span class="letter"><div class="character"></div> <span></span></span>
+			<span class="letter"><div class="character"></div> <span></span></span>
+			<span class="letter"><div class="character"></div> <span></span></span>
+			<span class="letter"><div class="character">宇囩閍僠</div> <span></span></span>
 		</div>
 	</div>    
 	<span class="bio">
@@ -53,27 +53,6 @@
 		
     </ul>
 </div>
-<div class="footer">
-<a href="https://23sun-cn.github.io/disclaimer">免责声明</a>
-<span><span id="timeDate">载入天数...</span><span id="times">载入时分秒...</span></span>
-<script>
-    var now = new Date();
-    function createtime() {
-        var grt= new Date("01/01/2023 00:00:00");
-        now.setTime(now.getTime()+250);
-        days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days);
-        hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours);
-        if(String(hnum).length ==1 ){hnum = "0" + hnum;} minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum);
-        mnum = Math.floor(minutes); if(String(mnum).length ==1 ){mnum = "0" + mnum;}
-        seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum);
-        snum = Math.round(seconds); if(String(snum).length ==1 ){snum = "0" + snum;}
-        document.getElementById("timeDate").innerHTML = "本站已运行 "+dnum+" 天 ";
-        document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒";
-    }
-setInterval("createtime()",250);
-</script>
-<a href="https://www.travellings.cn/go.html" target="_blank" rel="noopener" title="开往-友链接力">
-    <img src="https://www.travellings.cn/assets/logo.gif" alt="开往-友链接力" width="120">
 </a>
 </div>
 <script type="text/javascript" src="style/js/main.js"></script>
